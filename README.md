@@ -1,6 +1,6 @@
 # Spark_project
 
-In the files agn.us.txt, ainv.us.txt, ale.us.txt contain daily stock data of NYSE and NASDAQ from 2005 to 2017
+In the files agn.us.txt, ainv.us.txt, ale.us.txt contain daily stock data of NYSE and NASDAQ from 2005 to 2017.
 Every line has the structure: Date, Open, High, Low, Close, Volume, OpenInt
 Using Apache Spark we have to execute the following queries:
 
