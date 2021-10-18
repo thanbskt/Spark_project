@@ -10,7 +10,7 @@ findspark.init('/home/thanos/spark-2.1.0-bin-hadoop2.7')
 #importing pyspark library
 import pyspark
 
-#srating a spark session
+#starting a spark session
 from pyspark.sql import SparkSession
 
 #initializing sparksession
@@ -21,7 +21,7 @@ from pyspark.sql.types import (StructField,StringType,
                                IntegerType,StructType,
                                DateType,FloatType)
 
-#specifies the data fields
+#specifying the data fields
 data_schema = [StructField('Date', DateType(),True),
                StructField('Open', FloatType(),True),
                StructField('High', FloatType(),True),
